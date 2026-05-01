@@ -2,21 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Blogs by Me</title>
+  <title>Blog Detail</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <nav class="navbar">
-  <h1>Blogs by Me</h1>
+  <h1 onclick="goHome()" style="cursor:pointer;">⬅ Back</h1>
   <button id="themeToggle">🌙</button>
 </nav>
 
-<header class="hero">
-  <h2>Select a Topic</h2>
-</header>
-
-<section class="container" id="blogContainer"></section>
+<section class="detail">
+  <h2 id="title"></h2>
+  <p id="content"></p>
+</section>
 
 <script src="app.js"></script>
 </body>
